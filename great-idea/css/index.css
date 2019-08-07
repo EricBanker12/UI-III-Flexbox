@@ -184,24 +184,15 @@ div:hover .button {
 
 /* content section */
 
-#content div {
+.col2, .col3 {
     margin: 36px 0;
+    display: flex;
+    justify-content: space-between;
 }
 
-.half-width {
-    display: inline-block;
-    width: 49.5%;
-}
+.col2 div {width: 49%}
 
-.third-width {
-    display: inline-block;
-    width: 32%;
-}
-
-.middle {
-    margin-left: 0.5%;
-    margin-right: 0.5%;
-}
+.col3 div {width: 32%}
 
 /* footer */
 
