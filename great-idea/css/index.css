@@ -82,8 +82,10 @@ address, p {
 /* nav header */
 
 header {
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
     position: fixed; /* stretch goal #1 */
-    width: 100%;
     padding-top: 25px;
     font-size: 14px;
     height: 61px; 
@@ -92,26 +94,19 @@ header {
 }
 
 header nav {
-    display: inline-block;
-    width: 700px;
+    display: flex;
     height: 36px;
-    vertical-align: top;
-    line-height: 36px;
+    width: 700px;
+    align-items: center;
 }
 
-header a {
+header nav a {
     color:#bbb;
     margin-right: 66px;
 }
 
-header a:last-child {
+header nav a:last-child {
     margin-right: unset;
-}
-
-header img {
-    /* position: absolute;
-    right: 0; */
-    margin-left: 20px; /* stretch goal #1, can't use absolute inside fixed */
 }
 
 /* stretch goal #2 */
