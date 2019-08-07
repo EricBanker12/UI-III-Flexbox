@@ -75,7 +75,7 @@ html, body {
 }
 
 address, p {
-    line-height: 1.15;
+    line-height: 1.25;
 }
 
 /* nav header */
@@ -134,7 +134,7 @@ nav a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 530px;
+    height: 590px;
     padding-top: 61px;
     border-bottom: 1px solid black;
 }
@@ -212,11 +212,43 @@ footer address, footer p {
 
 #servicesBanner {
     padding-top: 86px;
-    padding-bottom: 34px;
+    padding-bottom: 40px;
     border-bottom: 1px solid black;
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 28px;
     margin-top: 30px;
+}
+
+/* servicesContent */
+
+#servicesContent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 40px;
+    border-bottom: 2px solid black;
+}
+
+.box {
+    border: 1px solid black;
+    padding: 20px;
+    width: 420px;
+    margin-bottom: 40px;
+    background-color: #f4f3f4;
+}
+
+.box a {
+    margin-top: 20px;
+    display: block;
+    background-color: white;
+    border: 1px solid black;
+    font-size: 14px;
+    width: 141px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    color: black;
+    border-radius: 5px;
 }
