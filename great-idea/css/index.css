@@ -191,14 +191,14 @@ div:hover .button {
 
 /* footer */
 
-footer {
+#footer {
     border-top: 1px solid black;
     padding: 40px 0;
     margin-top: 10px;
     margin-bottom: 75px;
 }
 
-footer address, footer p {
+#footer address, #footer p {
     margin-bottom: 1em;
 }
 
@@ -268,3 +268,11 @@ h2 {
 ul {list-style: square inside;margin-top: 30px;}
 
 li {margin-bottom: 1em}
+
+/* servicesFooter */
+
+#servicesFooter {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
