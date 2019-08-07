@@ -143,10 +143,6 @@ nav a:hover {
     width: 50%;
 }
 
-#banner img {
-    /* align-self: flex-start; */
-}
-
 h1 {
     font-size: 75px;
     text-align: center;
@@ -210,4 +206,17 @@ footer address, footer p {
     text-align: center;
     margin-top: 3em;
     font-size: 14px;
+}
+
+/* servicesBanner */
+
+#servicesBanner {
+    padding-top: 86px;
+    padding-bottom: 34px;
+    border-bottom: 1px solid black;
+}
+
+h2 {
+    font-size: 30px;
+    margin-top: 30px;
 }
