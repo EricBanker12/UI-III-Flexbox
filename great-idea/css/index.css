@@ -95,7 +95,7 @@ header {
 header nav {
     display: flex;
     height: 36px;
-    width: 700px;
+    /* width: 700px; */
     align-items: center;
 }
 
@@ -258,6 +258,7 @@ h2 {
 #servicesAbout {
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
     margin-top: 40px;
 }
 
@@ -275,4 +276,40 @@ li {margin-bottom: 1em}
     text-align: center;
     margin-top: 80px;
     margin-bottom: 20px;
+}
+
+/* stretch goal #2 */
+
+@media (min-width:561px) and (max-width:899px) {
+    header {width: 100%;}
+
+    header nav a {margin-right: 10px;}
+}
+
+@media (max-width:560px) {
+    html, body, header {
+        width: 100%;
+        min-width: 420px;
+        overflow-x: hidden;
+    }
+
+    header {
+        flex-wrap: wrap;
+        height: 97px;
+    }
+
+    header nav a {margin-right: 10px;}
+
+    #servicesContent {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #servicesAbout {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    #servicesAbout img {margin-bottom: 30px;}
 }
