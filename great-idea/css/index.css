@@ -244,7 +244,7 @@ h2 {
     display: block;
     background-color: white;
     border: 1px solid black;
-    font-size: 14px;
+    font-size: 12px;
     width: 141px;
     height: 35px;
     line-height: 35px;
@@ -252,3 +252,19 @@ h2 {
     color: black;
     border-radius: 5px;
 }
+
+/* servicesAbout */
+
+#servicesAbout {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+#servicesAbout div {
+    width: 400px;
+}
+
+ul {list-style: square inside;margin-top: 30px;}
+
+li {margin-bottom: 1em}
