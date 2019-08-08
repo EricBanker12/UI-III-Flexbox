@@ -71,6 +71,7 @@ a {
 
 html, body {
     width: 880px;
+    height: unset; /* low-res mobile device fix */
     margin: 0 auto;
 }
 
